@@ -1,0 +1,19 @@
+@mixin golden-text($w) {
+  color: $color-gold;
+  font-family: $font-poppins;
+  font-weight: $w;
+}
+@mixin title($fs, $lh, $w) {
+  font-family: $font-rubik;
+  font-weight: $w;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color-white;
+}
+@mixin white-poppins($fs, $lh, $w) {
+  font-family: $font-poppins;
+  font-weight: $w;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color-white;
+}
